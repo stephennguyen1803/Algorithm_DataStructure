@@ -1,2 +1,2 @@
 # sorting
-using for practice sort data
+##1. Selection Sort and Buble Sort
