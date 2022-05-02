@@ -1,6 +1,6 @@
 ### Bubble Sort:
-##1. Thuật toán dựa trên so sánh hai cặp số liền kề:
-##2. Chú ý quan trọng, các phần tử được sắp xếp sẽ được xếp lên cuối mảng (vòng lặp sau sẽ không tính đến phần tử cuối cùng này), cứ xong một vòng lặp thì phần tử được sắp xếp lại tăng lên 1 (cuối mảng)
+###1. Thuật toán dựa trên so sánh hai cặp số liền kề:
+###2. Chú ý quan trọng, các phần tử được sắp xếp sẽ được xếp lên cuối mảng (vòng lặp sau sẽ không tính đến phần tử cuối cùng này), cứ xong một vòng lặp thì phần tử được sắp xếp lại tăng lên 1 (cuối mảng)
 ```
 [5 2 6 8 1 3]
 #lần 1:
@@ -25,8 +25,8 @@
 1 < 2 => ko đổi => [1 2 3 5 6 8] (ngừng tại đây vì 3, 5, 6, 8 đã đc sắp xếp từ lần 1, 2, 3 và lần 4)
 ==> In ra kết quả mảng đã được sắp xếp.
 ```
-##3. Độ phức tạp thuật toán là O(n^2)
-##4. Thuật toán bubble sort optimize dựa trên ý tưởng nếu vòng lặp kiểm tra thứ n ko có đổi phần tử nào thì ko cần chạy thêm vòng lặp n+1 để kiểm tra nữa mà ngừng luôn để tiết kiệm bộ nhớ và giải thuật.
+###3. Độ phức tạp thuật toán là O(n^2)
+###4. Thuật toán bubble sort optimize dựa trên ý tưởng nếu vòng lặp kiểm tra thứ n ko có đổi phần tử nào thì ko cần chạy thêm vòng lặp n+1 để kiểm tra nữa mà ngừng luôn để tiết kiệm bộ nhớ và giải thuật.
 ```
 [1 8 3 5 6]
 # khởi tạo flag check = true) để chạy kiểm tra
