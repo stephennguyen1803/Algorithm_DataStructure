@@ -1,4 +1,4 @@
-### Bubble Sort
+### Bubble Sort:
 ##1. Thuật toán dựa trên so sánh hai cặp số liền kề:
 ##2. Chú ý quan trọng, các phần tử được sắp xếp sẽ được xếp lên cuối mảng (vòng lặp sau sẽ không tính đến phần tử cuối cùng này), cứ xong một vòng lặp thì phần tử được sắp xếp lại tăng lên 1 (cuối mảng)
 ```
