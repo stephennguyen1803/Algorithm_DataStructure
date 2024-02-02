@@ -6,3 +6,6 @@
 
 ### Độ phức tạp thuật toán:
 O(n^2)
+1. Sử dụng vòng lặp từ 1 -> đến n: sử dụng phần tử i để gắn giá trị cần so sánh (độ phức tạp O(n))
+2. Chạy vòng thứ 2 từ j = i +1 đến n - 1: so sánh hai giá trị a[i] và a[j]. Nếu a[i] > a[j] thì đổi chổ hai phần tử (độ phức tạp O(n))
+3. vì 2 vòng lặp lồng nhau: => độ phức tạp của thuật toán sẽ là B(O) = O(n) * O(n) = O(n^2)
