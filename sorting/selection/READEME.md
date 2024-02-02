@@ -1,5 +1,6 @@
 #1.Selection Sort
 ## Ý Chính Bao Gồm 2 mảng con dựa trên mảng chính cần sắp xếp
+1) Ý tưởng: Chọn phần tử nhỏ nhất và đưa nó về đầu mảng. Lặp lại quá trình với phần còn lại của mảng.
 1) Mảng con để chứa các phần tử được sắp xếp.
 2) Mảng con còn lại chưa được sắp xếp
 ## flowchart: https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220203094305/Selection-Sort-Flowhchart.png
