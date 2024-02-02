@@ -1,7 +1,7 @@
 ### Bubble Sort:
 #### Ý tưởng: Duyệt qua mảng nhiều lần, so sánh các cặp phần tử liền kề và đổi chỗ chúng nếu chúng không đúng thứ tự.
-###1. Thuật toán dựa trên so sánh hai cặp số liền kề:
-###2. Chú ý quan trọng, các phần tử được sắp xếp sẽ được xếp lên cuối mảng (vòng lặp sau sẽ không tính đến phần tử cuối cùng này), cứ xong một vòng lặp thì phần tử được sắp xếp lại tăng lên 1 (cuối mảng)
+### 1. Thuật toán dựa trên so sánh hai cặp số liền kề:
+### 2. Chú ý quan trọng, các phần tử được sắp xếp sẽ được xếp lên cuối mảng (vòng lặp sau sẽ không tính đến phần tử cuối cùng này), cứ xong một vòng lặp thì phần tử được sắp xếp lại tăng lên 1 (cuối mảng)
 ```
 [5 2 6 8 1 3]
 #lần 1:
