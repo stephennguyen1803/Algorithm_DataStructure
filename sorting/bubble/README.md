@@ -26,8 +26,8 @@
 1 < 2 => ko đổi => [1 2 3 5 6 8] (ngừng tại đây vì 3, 5, 6, 8 đã đc sắp xếp từ lần 1, 2, 3 và lần 4)
 ==> In ra kết quả mảng đã được sắp xếp.
 ```
-###3. Độ phức tạp thuật toán là O(n^2)
-###4. Thuật toán bubble sort optimize dựa trên ý tưởng nếu vòng lặp kiểm tra thứ n ko có đổi phần tử nào thì ko cần chạy thêm vòng lặp n+1 để kiểm tra nữa mà ngừng luôn để tiết kiệm bộ nhớ và giải thuật.
+#### 3. Độ phức tạp thuật toán là O(n^2)
+#### 4. Thuật toán bubble sort optimize dựa trên ý tưởng nếu vòng lặp kiểm tra thứ n ko có đổi phần tử nào thì ko cần chạy thêm vòng lặp n+1 để kiểm tra nữa mà ngừng luôn để tiết kiệm bộ nhớ và giải thuật.
 ```
 [1 8 3 5 6]
 # khởi tạo flag check = true) để chạy kiểm tra
